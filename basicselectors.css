@@ -1,0 +1,16 @@
+h1{
+    color:blue;
+}
+.class{
+    color: red;
+}
+#unique{
+    background-color: brown;
+    color:white;
+    }
+h4,p,h5{
+    color:darkmagenta;
+}
+*{
+    color: yellow;
+}
