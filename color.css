@@ -1,0 +1,36 @@
+.whole{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.class{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 4px;
+}
+.inside{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin: auto;
+    background-color: blue;
+}
+#hexadecimal{
+    background-color: #ff5733;
+}
+#rgb{
+    background-color: rgb(51, 255, 139);
+}
+#rgba{
+    background-color: rgba(255, 51, 139, 0.5);
+}
+#hsl{
+    background-color: hsl(64, 100%, 50%);
+}
+#hsla{
+    background-color: hsla(240, 100%, 50%, 0.5);
+}
