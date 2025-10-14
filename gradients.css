@@ -1,0 +1,40 @@
+.whole{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.class{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 4px;
+}
+.inside{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background: linear-gradient(to left,blue,yellow);
+    margin: auto;
+
+}
+#hexadecimal{
+    background:linear-gradient(to right, #ff338b, #33ff8b);
+}
+#rgb{
+    background: linear-gradient(to top,rgb(0, 204, 255),purple);
+}
+#rgba{
+    background:linear-gradient(to bottom,green,yellow);
+}
+#hsl{
+    background:repeating-linear-gradient(rgb(221, 93, 210),rgb(8, 247, 131) 20px);
+}
+#hsla{
+    background:radial-gradient(yellow,red);
+}
+#h1{
+    background: repeating-radial-gradient(white,black 30px);
+}
