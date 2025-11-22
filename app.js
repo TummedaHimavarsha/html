@@ -1,0 +1,3 @@
+  function product(){
+            alert("external")
+        }
