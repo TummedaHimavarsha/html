@@ -1,47 +1,36 @@
-// primitive: number,strings,boolean,undefine,null,bigint,Symbol
-// non primitive: arrays,objects,functions
-
+var a;  //declare
+var a=10; //assign
+var a=10;
+    a=20; //reassigning
 var a=20;
-console.log(typeof(a)); //number
-
-var str="Himavarsha"
-console.log(typeof(str)) //strings
-
-
-var a=true;
- console.log(typeof(a)); //bool
-
-var a;
- console.log(typeof(a)) //undefined
-
-const a=null;
- console.log(typeof(a)); //null
-
-var a=BigInt(12345678)
- console.log(a)
- console.log(typeof(a)) //bigint
-
-var a=Symbol(123)
-var b=123
-console.log(a==b); //symbol
-
-// non primitive
-
-var a={
-    name:"himavarsha",
-    age:21
-}
-console.log(a.name) //object
-console.log(a['age'])
-a['name']="pinky"
+var a=30; //redeclaration
 console.log(a)
-delete a['age']
+var a=10 //hoisting
+// // var support declare,assign,redclare,reassign,hoisting
+
+
+let a; //declare
+a=10; //assign
 console.log(a)
 
+let a=20;
+    a=30;
+console.log(a) //reassign
 
-//arrays
-var arr=["porsche","BMW",1,2]
-arr[2]="astonmartin"
-delete arr[2]
-arr[2]="astonmartin"
-console.log(arr)
+let da=20;
+let da=30;
+console.log(da) //redeclaration in let is not possible
+
+console.log(a);
+let a=20;  
+//  hoisting is not suppoted in let 
+
+
+ const a=20; //assign and declare needs to be done in single line that is initialization
+const a=30; //redeclare is not supported
+a=40; //reassign is not supported
+console.log(a)
+const a=20; //hoisting is also not supported
+
+
+
