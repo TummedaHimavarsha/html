@@ -20,7 +20,7 @@ nav {
     padding: 10px;
 }
 
-/* ✅ Hero Section with Scrollable Background */
+
 .div {
     width: 100%;
     height: 500px;
@@ -28,7 +28,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: scroll; /* ✅ Allows scroll effect */
+    background-attachment: scroll; 
     position: relative;
     display: flex;
     flex-direction: column;
@@ -38,8 +38,6 @@ nav {
     animation: bg-pan 20s linear infinite;
 
 }
-
-/* ✅ Overlay for Better Text Visibility */
 .div::before {
     content: "";
     position: absolute;
@@ -51,7 +49,7 @@ nav {
     z-index: 0;
 }
 
-/* ✅ White Text Above Overlay */
+
 .div h2,
 .div p,
 .div button {
@@ -61,7 +59,7 @@ nav {
     text-align: center;
 }
 
-/* ✅ Main Button Style - Centered */
+
 .button, .button1 {
     background: linear-gradient(to right, rgb(133, 6, 218), rgb(233, 9, 140));
     color: white;
@@ -73,25 +71,24 @@ nav {
     transition: all 0.3s ease;
 }
 
-/* ❌ Removed margin-left to center properly */
+
 .button {
     margin-top: 15px;
 }
 
-/* ✨ Hover & Focus Effects */
+
 .button:hover, .button1:hover {
     transform: scale(1.1);
     box-shadow: 0 0 20px rgba(233, 9, 140, 0.7);
 }
 
-/* ✅ Card Section */
+
 .card1 {
     background-color: rgb(41, 0, 71);
     text-align: center;
     padding: 30px;
 }
 
-/* ✅ Card Styling */
 .card2 {
     background-color: rgb(58, 0, 99);
     width: 240px;
@@ -105,7 +102,7 @@ nav {
     overflow: hidden;
 }
 
-/* ✅ Image Styling */
+
 .card2 img {
     width: 100%;
     height: 250px;
@@ -113,19 +110,19 @@ nav {
     border-top-right-radius: 25px;
 }
 
-/* ✅ Hover Effect */
+
 .card2:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px rgba(133, 6, 218, 0.6);
 }
 
-/* ✅ Centered Buttons Below Cards */
+
 .button1 {
     margin: 10px auto;
     display: block;
 }
 
-/* ✅ Bottom Section Layout */
+
 .bt {
     display: flex;
     justify-content: space-evenly;
